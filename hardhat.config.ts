@@ -11,7 +11,6 @@ dotenv.config()
 
 
 const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL || "";
-console.log(MAINNET_RPC_URL);
 
 const SPEOLIA_RPC_URL = process.env.SPEOLIA_RPC_URL || "";
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
