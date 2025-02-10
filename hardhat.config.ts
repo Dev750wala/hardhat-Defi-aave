@@ -18,7 +18,11 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "";
 
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.28",
+  solidity: {
+    compilers: [
+      { version: '0.8.28' }
+    ]
+  },
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
